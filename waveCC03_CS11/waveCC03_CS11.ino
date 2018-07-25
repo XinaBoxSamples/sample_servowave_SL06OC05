@@ -1,9 +1,9 @@
-#include <xCore.h>
-#include <xOD01.h>
+#include <xCore.h> //add core library @ https://github.com/xinabox/xCore
+#include <xOD01.h> //add sensor library @ https://github.com/xinabox/xOD01
 #include "TIMER_CTRL.h"
-#include <SparkFun_APDS9960.h>
+#include <SparkFun_APDS9960.h> //add sparkfun library @ https://github.com/sparkfun/SparkFun_APDS-9960_Sensor_Arduino_Library
 SparkFun_APDS9960 apds = SparkFun_APDS9960();
-#include <xOC05.h>
+#include <xOC05.h> //add sensor library @ https://github.com/xinabox/xOC05
 
 #if defined(ESP8266)
 #define RED   RED
